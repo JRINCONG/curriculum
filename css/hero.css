@@ -1,0 +1,83 @@
+.hero{
+    min-height: 100vh;
+    display: flex;
+    background-color:#0E79B2 ;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-evenly ;
+    align-items: center;
+  
+    
+}
+.hero-section2{
+    align-content: center;
+}
+
+.hero .img-hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+}
+.img-hero{
+    object-fit: cover;
+    transition: 2s;
+}
+
+.img-hero:hover{
+    transform:  scale(1.1);;
+}
+
+.img-hero img{
+    display: flex;
+    border-radius: 30%;
+}
+.hero-nombre{
+
+    display: flex;
+}
+.hero-saludo h1{
+    color: #FBFEF9 ;
+    font-size: 5rem;
+   
+}
+
+.typeScrip p{
+
+    color: #FBFEF9 ;
+    font-size: 15px;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.hero-nombre p{
+    display: block;
+}
+
+.hero-hola{
+    animation-name: saludo-animation;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+@keyframes saludo-animation {
+   
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform:rotate(20deg);
+    }
+
+    40% {
+        transform:rotate(20deg);
+    }
+
+    60% {
+        transform:rotate(-8deg);
+    }
+
+
+}

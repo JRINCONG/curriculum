@@ -1,0 +1,59 @@
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+    justify-content: space-evenly;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: baseline;      
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 2px;
+    font-size: 20px;
+    
+}
+.form-group button{
+    width: 60px;
+    background-color:  #ffa500;
+    font-weight: 700;
+    margin-top: 10px;
+    align-items: center;
+    transition: 0.3s;
+    padding: 2px;
+    color: #000;
+    
+}
+.form-group button:hover{
+    background-color: #ffa500;
+    font-size: 18px;
+    color: #000;
+    }
+    .logos-footer img{
+        width: 200px;
+        height: 150px;
+   }
+
+
+.logos-footer img:hover{
+    border: 1px solid #ff9f1c;
+    border-radius: #0be528;
+}
+.contactame{
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+
+.redes1:hover{
+    color:#BF1363 ;
+}
+

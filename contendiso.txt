@@ -1,0 +1,24 @@
+<div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                            <h1 class="display-4">About:</h1>
+                            <p class="lead">My name is Jairo Rincon, I am updating myself in js, React, etc. other technologies.
+                                I am from Colombia, I studied systems engineering, I have experience in IT services.</p>
+                            </div>
+                        </div>
+
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                            <h1 class="display-4">Fluid jumbotron</h1>
+                            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                            </div>
+                        </div>
+
+
+                        <section class="contenido-section2">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                        <h1 class="display-4">Fluid jumbotron</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                        </div>
+                    </div>
+            </section>

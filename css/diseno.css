@@ -1,0 +1,43 @@
+#container{
+    display: grid;
+    gap: 2px;
+    grid-template-areas:"header"
+                        "hero"
+                        "contenido"
+                        "footer";
+
+}
+
+header{
+    grid-area: header;
+    background-color:  #FBFEF9;   
+
+}
+.contenido{
+    grid-area: contenido;
+    background-color: #0E79B2;
+    
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: #191923
+    
+}
+
+.hero{
+    grid-area: hero;
+    background-color: #191923;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+ /*
+  background-image: url('https://images.unsplash.com/photo-1581276879432-15e50529f34b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+ background-color: #191923;
+  */
+
+   
+   
+}
+

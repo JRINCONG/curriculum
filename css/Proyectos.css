@@ -1,0 +1,92 @@
+.proyectos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:15px;
+    padding: 10px;
+
+}
+.Proyectos-principal{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+    
+}
+.Proyectos-principal .proyectos-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3px;
+}
+.Proyecto-one{
+    
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #0E79B2;
+
+  /*efecto*/
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+}
+
+.Proyecto-one.visible{
+    opacity: 1;
+    transform: scale(1) translateX(0);
+
+}
+
+.imagen-one{
+    height: 200px;
+    width: 100%;
+    /*este nos ayuda que la imegn no se salga del contenedor*/
+    overflow: hidden;
+   
+}
+.imagen1-proyectos{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+   transition: transform 2s;
+}
+.imagen1-proyectos:hover{
+    transform: scale(1.5);
+
+}
+
+.proyecto-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    background-color: #0E79B2;
+    color: #FBFEF9;
+    padding: 5px;
+}
+.proyeto-note{
+    background-color: #FBFEF9; 
+    display: flex;
+    align-items: center;
+    
+}
+.proyecto-tool{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.proyecto-tool p{
+    background-color: #191923;
+    border:2px solid #F39237;
+    color:#FBFEF9;
+    padding: 5px;
+    font-size: 12px;
+}
+.proyecto-tool a{
+    list-style: none;
+    color: #FBFEF9;
+}
+.proyeto-note{
+    background-color: #0E79B2;
+    color:#FBFEF9;
+    padding: 5px;
+    text-align: center;
+}

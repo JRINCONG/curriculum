@@ -1,0 +1,99 @@
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #FBFEF9;    
+    box-shadow: 0px -5px 8px 5px #00000056;   
+    align-items: center;  
+    padding: 20px;
+    
+}
+.logo-nombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-nombre h1{
+
+    animation: mover-izquierda-derecha 3s 1;
+}
+
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+
+.menu p{
+    font-family: 'The Youngest Script';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.principal{
+   display: flex;
+    gap: 40px; 
+    position: relative; 
+    right: 25px; 
+    text-decoration: none; 
+    font-size: 20px;
+    justify-content: center;
+    
+   
+}
+.menu h1{ 
+    font-family: 'The Youngest Script';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+.principal a{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #F39237;
+}
+
+.principal a:hover{
+   color: #0E79B2;
+   border-bottom: 1px solid #0E79B2;
+   
+}
+
+.menu-movil{
+    display: inline-block;
+    gap: 25px;
+    flex-direction: column;
+    display: none;
+    color:#BF1363; 
+    
+}
+
+.checkbtn{
+
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+.check-btn-menu{
+    display: none;
+}
+
+
+.menu-movil .btn-resume{
+    border: 3px solid #F39237;
+    background-color: #F39237;
+}
+
+.menu-movil .btn-resume:hover{
+    background-color: #BF1363;
+
+}

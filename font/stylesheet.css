@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'The Youngest Serif Book';
+    src: url('TYSerif-Book.eot');
+    src: local('The Youngest Serif Book'), local('TYSerif-Book'),
+        url('TYSerif-Book.eot?#iefix') format('embedded-opentype'),
+        url('TYSerif-Book.woff2') format('woff2'),
+        url('TYSerif-Book.woff') format('woff'),
+        url('TYSerif-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Youngest Serif Display';
+    src: url('TYSerif-D.eot');
+    src: local('The Youngest Serif Display'), local('TYSerif-D'),
+        url('TYSerif-D.eot?#iefix') format('embedded-opentype'),
+        url('TYSerif-D.woff2') format('woff2'),
+        url('TYSerif-D.woff') format('woff'),
+        url('TYSerif-D.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Youngest Script';
+    src: url('TYScript-Rg.eot');
+    src: local('The Youngest Script'), local('TYScript-Rg'),
+        url('TYScript-Rg.eot?#iefix') format('embedded-opentype'),
+        url('TYScript-Rg.woff2') format('woff2'),
+        url('TYScript-Rg.woff') format('woff'),
+        url('TYScript-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
